@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
-public class FirstDialog{
+public class FirstDialog {
     public static void main(String[] args){
-        JOptionPane.showMessageDialog(null, "Hello world! How are you?");
-        System.exit(0);
+        String name = JOptionPane.showInputDialog("Enter your name:");
+JOptionPane.showMessageDialog(null, "Hello " + name);
     }
 }
